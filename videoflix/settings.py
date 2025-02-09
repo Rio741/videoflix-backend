@@ -148,3 +148,6 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated',  # Standardmäßig nur für eingeloggte Nutzer
     ),
 }
+
+AUTH_USER_MODEL = "user_auth.User"
+
